@@ -1,0 +1,19 @@
+{
+    "require": {
+        "catfan/medoo": "1.2.*",
+        "twig/twig": "2.2.*"
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Framework\\": "framework/",
+            "Model\\": "application/models/",
+            "Service\\": "application/services/"
+        }
+    }
+}
